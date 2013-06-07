@@ -1,3 +1,28 @@
-.slideshow {
-  position: relative;
+body{
+	background-color: #F3F3F3;
+}
+
+#main{
+	margin: 0 auto;
+	margin-top: 80px;
+	height: 600px;
+	width: 800px;
+}
+
+.landing-container{
+	position: absolute;
+}
+
+.fadeshow1{
+	float: left;
+}
+
+.fadeshow2{
+	float: right;
+}
+
+.landing-logo{
+	clear: both;
+	text-align: center;
+	padding-top: 20px;
 }
