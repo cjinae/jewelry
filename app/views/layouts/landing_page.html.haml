@@ -15,11 +15,8 @@
 
   %body
     #main
-      .container-home
-        .row
-          .span12
-            = yield
-        %footer
+      = yield
+  %footer
 
 :javascript
 %script{:type => "text/javascript", :src => "jquery.cycle.all.latest.js"}

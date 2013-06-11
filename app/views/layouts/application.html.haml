@@ -12,14 +12,9 @@
     = yield(:head)
 
   %body
-    %header.navbar.navbar-fixed-top
-      %nav.navbar-inner
-        .container
-          = render 'layouts/navbar'
-    #main
-      .container
-        .content
-          .row
-            .span12
-              = yield
-          %footer
+    / %header.navbar.navbar-fixed-top
+    /   %nav.navbar-inner
+    /     .container
+    /       = render 'layouts/navbar'
+    = yield
+  %footer
