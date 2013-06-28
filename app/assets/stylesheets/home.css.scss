@@ -70,18 +70,17 @@
 // }
 
 // Product Section
-.product-outer-container {
-  overflow: auto;
-  background-color: #DDD;
-  border: 1px solid black;
-  padding: 20px;
+.product-container--outer {
+  margin: 0 auto;
 }
 
-// .thumbnails > li {
-//   float: right;
-//   margin-bottom: 20px;
-//   margin-left: 20px;
-// }
+.product-container--inner {
+  overflow: auto;
+  background-color: #DDD;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 li.product--thumb {
   max-height: 470px;
@@ -96,5 +95,4 @@ li.product--thumb {
   max-height: 400px;
   margin: 0 auto;
 }
-
 
