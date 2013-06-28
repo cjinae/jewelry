@@ -47,6 +47,7 @@
   padding: 15px 20px;
   margin-top: 200px;
 }
+
 .carousel-control {
   height: 80px;
   margin-top: 0;
@@ -68,13 +69,32 @@
 //   margin-top: 10px;
 // }
 
-// About Section
-.about-outer-container {
+// Product Section
+.product-outer-container {
   overflow: auto;
   background-color: #DDD;
-  height: 400px;
+  border: 1px solid black;
+  padding: 20px;
 }
 
+// .thumbnails > li {
+//   float: right;
+//   margin-bottom: 20px;
+//   margin-left: 20px;
+// }
 
+li.product--thumb {
+  max-height: 470px;
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.product-img {
+  overflow: auto;
+  max-height: 400px;
+  margin: 0 auto;
+}
 
 
