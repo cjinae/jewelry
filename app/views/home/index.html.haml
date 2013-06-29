@@ -10,8 +10,8 @@
 
 
 
-.carousel-outer-container
-  .grid
+.carousel-container--outer
+  .carousel-container--inner
     .carousel.slide
       .carousel-inner
         .item.active
@@ -37,7 +37,7 @@
       %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel"} ›
 
 // Product Thumbnail Section //
-= render "/partials/home_partial"
+= render "/partials/products_partial"
 
 
 // About Artist Section //
@@ -51,6 +51,12 @@
         %h3 Artist Name
         %p A teacher by day and a jeweler by night. Born and raised in Toronto, my love for all things gold and glitzy has been with me all my life. I began making jewelry as a hobby two years ago when I needed snazzy gifts for my nearest and dearest friends. Inspired by the wonderful people in my life, I decided to create my own line of handcrafted jewelry and just like that, Nine and Knots came to be.
 
+// Footer Section //
+.footer-container--outer
+  .footer-container--inner
+    .row-fluid
+      .span12
+        %p webiste by cleejin
 
 
 
