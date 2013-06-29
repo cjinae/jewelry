@@ -2,13 +2,19 @@
 body { padding-top: 60px; }
 @import "bootstrap-responsive";
 
+
+a:link {
+	text-decoration: none;
+}
+
 .container {
 	width: 1600px;
 	margin: auto;
-	border: 1px solid black;
+	// border: 1px solid black;
 }
 
 .span8,
-.span4 {
-	border: 1px solid black;
+.span4,
+.span3 {
+	// border: 1px solid black;
 }

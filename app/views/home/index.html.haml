@@ -1,3 +1,15 @@
+.home-header-container--outer
+  .home-header-container--inner
+    .row-fluid
+      .span6.offset3.home-logo--container
+        %a{:href => "/"}
+          %img{:class => "home-logo-img", :alt => "", :src => "../assets/logo-amp.png"}
+      .span3
+        %a{:class => "linksto", :href => "#about"} About
+        %a{:class => "linksto", :href => "/"} Landing
+
+
+
 .carousel-outer-container
   .grid
     .carousel.slide
@@ -25,59 +37,20 @@
       %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel"} ›
 
 // Product Thumbnail Section //
+= render "/partials/home_partial"
 
-.product-container--outer
-  .product-container--inner
-    .row-fluid
-      .span12
-        .span4
-          %ul.thumbnails
-            %li.product--thumb
-              %img{:class => "product-img", :alt => "", :src => "../assets/nineandknots01.jpg"}/
-              %h3 Product Name
-              %p Product Description
-        .span4
-          %ul.thumbnails
-            %li.product--thumb
-              %img{:class => "product-img", :alt => "", :src => "../assets/nineandknots02.jpg"}/
-              %h3 Product Name
-              %p Product Description
-        .span4
-          %ul.thumbnails
-            %li.product--thumb
-              %img{:class => "product-img", :alt => "", :src => "../assets/nineandknots03.jpg"}/
-              %h3 Product Name
-              %p Product Description
-    .row-fluid
-      .span12
-        .span4
-          %ul.thumbnails
-            %li.product--thumb
-              %img{:class => "product-img", :alt => "", :src => "../assets/nineandknots01.jpg"}/
-              %h3 Product Name
-              %p Product Description
-        .span4
-          %ul.thumbnails
-            %li.product--thumb
-              %img{:class => "product-img", :alt => "", :src => "../assets/nineandknots02.jpg"}/
-              %h3 Product Name
-              %p Product Description      
-        .span4
-          %ul.thumbnails
-            %li.product--thumb
-              %img{:class => "product-img", :alt => "", :src => "../assets/nineandknots03.jpg"}/
-              %h3 Product Name
-              %p Product Description
 
 // About Artist Section //
+%a#about
 .artist-container--outer
   .artist-container--inner
     .row-fluid
       .span4
-        %img{:class => "artist-img", :alt => "", :src => ""}
+        %img{:class => "artist-img", :alt => "", :src => "../assets/portrait-crop.png"}
       .span8
         %h3 Artist Name
-        %p Artist Bio
+        %p A teacher by day and a jeweler by night. Born and raised in Toronto, my love for all things gold and glitzy has been with me all my life. I began making jewelry as a hobby two years ago when I needed snazzy gifts for my nearest and dearest friends. Inspired by the wonderful people in my life, I decided to create my own line of handcrafted jewelry and just like that, Nine and Knots came to be.
+
 
 
 
