@@ -44,6 +44,7 @@
   padding: 0 10px;
   margin: 0 auto;
   max-width: 960px;
+  outline: solid black;
 }
 
 .carousel{
@@ -58,8 +59,12 @@
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  // min-width: 100%;
   height: 400px;
+}
+
+.carousel-img--first {
+  // min-width: 100%
 }
 
 .carousel-content{
@@ -76,6 +81,7 @@
   max-width: 550px;
   padding: 15px 20px;
   margin-top: 200px;
+  outline: dotted black;
 }
 
 .carousel-control{
@@ -102,28 +108,47 @@
 // Product Thumbnail Style //
 .product-container--outer{
   margin: 0 auto;
+  // background-image: url('logo-amp-bg.png');
 }
 
 .product-container--inner{
   overflow: auto;
-  background-color: #DDD;
-  padding: 20px;
+  // background-color: #FFF;
+  // padding: 20px;
   max-width: 960px;
   margin: 0 auto;
 }
 
+ul.thumbnails{
+  // outline: solid black;
+  height: 394px;
+  border: 2px solid #FAFAFA;
+  box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+  background-color: #FFF;
+}
+
 li.product--thumb{
-  max-height: 470px;
+  height: 300px;
   float: none;
   margin: 0 auto;
   text-align: center;
-  padding: 10px;
+  // padding: 10px;
+}
+
+li.thumbnails{
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid #DDD;
+
 }
 
 .product-img{
   overflow: auto;
-  height: 400px;
+  // height: 400px;
   margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 // About Artist Style //
@@ -141,6 +166,10 @@ li.product--thumb{
 }
 
 // Footer Style //
+.footer-container--outer{
+  background-image: url('logo-amp-bg.png');
+}
+
 .footer-container--inner {
   border: 1px solid black;
   max-width: 960px;
@@ -149,8 +178,18 @@ li.product--thumb{
 }
 
 
-
-
+// 
+.trial{
+  // border: 1px solid black;
+  height: 300px;
+  width: 600px;
+  z-index: -100;
+  position: relative;
+  float: right;
+  margin-top: -500px;
+  background-image: url('longknot.png');
+  background-repeat: no-repeat;
+}
 
 
 
