@@ -28,15 +28,11 @@
 
 .home-header-container--inner{
   padding: 20px;
-  // margin: 0 auto;
-  // border: 1px solid green;
 }
 
 .home-logo--container{
   text-align:center;
 }
-
-
 
 // Carousel Style//
 
@@ -44,7 +40,6 @@
   padding: 0 10px;
   margin: 0 auto;
   max-width: 960px;
-  outline: solid black;
 }
 
 .carousel{
@@ -59,12 +54,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  // min-width: 100%;
   height: 400px;
-}
-
-.carousel-img--first {
-  // min-width: 100%
 }
 
 .carousel-content{
@@ -72,7 +62,6 @@
   z-index: 9;
   margin: auto;
   bottom: 0px;
-  // border: 1px solid green;
 }
 
 .carousel-captions{
@@ -81,7 +70,7 @@
   max-width: 550px;
   padding: 15px 20px;
   margin-top: 200px;
-  outline: dotted black;
+  // outline: dotted black;
 }
 
 .carousel-control{
@@ -113,14 +102,11 @@
 
 .product-container--inner{
   overflow: auto;
-  // background-color: #FFF;
-  // padding: 20px;
   max-width: 960px;
   margin: 0 auto;
 }
 
 ul.thumbnails{
-  // outline: solid black;
   height: 394px;
   border: 2px solid #FAFAFA;
   box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
@@ -132,7 +118,6 @@ li.product--thumb{
   float: none;
   margin: 0 auto;
   text-align: center;
-  // padding: 10px;
 }
 
 li.thumbnails{
@@ -140,7 +125,6 @@ li.thumbnails{
   margin: 0 auto;
   text-align: center;
   border-top: 1px solid #DDD;
-
 }
 
 .product-img{
@@ -161,34 +145,56 @@ li.thumbnails{
   max-width: 960px;
   padding: 20px;
   margin: 0 auto;
-  // border: 1px solid black;
   background-color: #FFF;
 }
 
 // Footer Style //
-.footer-container--outer{
-  background-image: url('logo-amp-bg.png');
-}
-
-.footer-container--inner {
-  border: 1px solid black;
+.footer-container--inner{
   max-width: 960px;
   height: 200px;
   margin: 0 auto;
+  // border: 1px solid black;
 }
 
-
-// 
-.trial{
-  // border: 1px solid black;
+.footer-background{
+  background-image: url('longknot.png');
   height: 300px;
   width: 600px;
   z-index: -100;
-  position: relative;
-  float: right;
-  margin-top: -500px;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.footer-content {
+  margin-top: 100px;
+  text-align: center;
+
+}
+
+// 
+.longknot--top{
+  margin-top: 50px;
+  height: 300px;
+  width: 600px;
+  z-index: -100;
   background-image: url('longknot.png');
   background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 60px;
+
+}
+
+.longknot--bottom{
+  margin-top: 50px;
+  height: 300px;
+  width: 600px;
+  z-index: -100;
+  background-image: url('longknot.png');
+  background-repeat: no-repeat;
+  position:absolute; right: 0;
+
 }
 
 
