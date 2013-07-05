@@ -13,6 +13,44 @@
   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
   box-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
+// All Around Page Border //
+.border{
+  position: fixed;
+  z-index: 900;
+  height: 17px;
+  background: #F1F1F1;
+  left: 0px;
+  right: 0px;
+}
+
+.border--top{
+  @extend .border;
+  top: 0px;
+}
+
+.border--bottom{
+  @extend .border;
+  bottom: 0px;
+}
+
+.border-side{
+  position: fixed;
+  z-index: 900;
+  top: 0px;
+  bottom: 0px;
+  width: 17px;
+  background: #F1F1F1;
+}
+
+.border--left{
+  @extend .border-side;
+  left: 0px;
+}
+
+.border--right{
+  @extend .border-side;
+  right: 0px;
+}
 
 // Header Style //
 .linksto{
@@ -173,29 +211,27 @@ li.thumbnails{
 
 }
 
-// 
-.longknot--top{
-  margin-top: 50px;
-  height: 300px;
-  width: 600px;
-  z-index: -100;
-  background-image: url('longknot.png');
-  background-repeat: no-repeat;
-  position: absolute;
-  margin-left: 60px;
+// For Background Long Knots - Behind Main Container
+// .longknot--top{
+//   margin-top: 50px;
+//   height: 300px;
+//   width: 600px;
+//   z-index: -100;
+//   background-image: url('longknot.png');
+//   background-repeat: no-repeat;
+//   position: absolute;
+//   margin-left: 60px;
+// }
 
-}
-
-.longknot--bottom{
-  margin-top: 50px;
-  height: 300px;
-  width: 600px;
-  z-index: -100;
-  background-image: url('longknot.png');
-  background-repeat: no-repeat;
-  position:absolute; right: 0;
-
-}
+// .longknot--bottom{
+//   margin-top: 50px;
+//   height: 300px;
+//   width: 600px;
+//   z-index: -100;
+//   background-image: url('longknot.png');
+//   background-repeat: no-repeat;
+//   position:absolute; right: 0;
+// }
 
 
 
