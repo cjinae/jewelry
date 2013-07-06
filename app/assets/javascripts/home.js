@@ -4,8 +4,8 @@
 
 $(document).ready(function(){
 
-$('.border--top').hover(function(){
-	console.log(this);
+$('.outer-row').hover(function(){
+	$(this).find('.product-detail').toggleClass('show');
 });	
 
 

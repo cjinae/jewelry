@@ -179,6 +179,7 @@ li.thumbnails{
 }
 
 .product-detail{
+  visibility: hidden;
   position: relative;
   background: rgba(0,0,0,0.6);  
   height: 300px;
@@ -187,10 +188,17 @@ li.thumbnails{
   bottom: 0;
   right: 0;
   left: 0;
-
 }
 
+.show{
+  visibility: visible;
+}
 
+p.product-text{
+  color: #FFF;
+  text-align: center;
+  padding: 40px 10px 0px 10px;
+}
 
 // About Artist Style //
 .artist-container--outer{
