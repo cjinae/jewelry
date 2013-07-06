@@ -139,16 +139,22 @@
 }
 
 .product-container--inner{
-  overflow: auto;
+  overflow: hidden;
   max-width: 960px;
   margin: 0 auto;
 }
 
 ul.thumbnails{
-  height: 394px;
+  height: 300px;
   border: 2px solid #FAFAFA;
   box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
   background-color: #FFF;
+}
+
+li.outer-row{
+  position: absolute;
+  margin: 0;
+  overflow: hidden;
 }
 
 li.product--thumb{
@@ -167,11 +173,24 @@ li.thumbnails{
 
 .product-img{
   overflow: auto;
-  // height: 400px;
   margin: 0 auto;
   max-width: 100%;
   max-height: 100%;
 }
+
+.product-detail{
+  position: relative;
+  background: rgba(0,0,0,0.6);  
+  height: 300px;
+  width: 300px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+}
+
+
 
 // About Artist Style //
 .artist-container--outer{
