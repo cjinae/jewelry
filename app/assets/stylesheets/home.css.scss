@@ -144,6 +144,40 @@
   margin: 0 auto;
 }
 
+.product-container--promote{
+  @extend .product-container--inner;
+  height: 630px;
+  outline: solid yellow;
+}
+
+.display-large--left{
+  padding: 15px;
+  float: left;
+}
+
+.display-large--right{
+  float: right;
+  height: 600px;
+  width: 330px; 
+}
+
+ul.display{
+  margin: 0;
+}
+
+li.display-small--top{
+  padding: 15px 15px 0 15px;
+  float: left;
+  list-style-type: none;
+  width: 300px;
+  height: 300px
+}
+
+li.display-small--bottom{
+  @extend .display-small--top;
+  padding-bottom: 15px;
+}
+
 ul.thumbnails{
   height: 300px;
   border: 2px solid #FAFAFA;
