@@ -26,20 +26,26 @@
               %h1 Example headline
               %p.lead Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
         .item
-          %img{:alt => "", :src => "../assets/nk20.jpg"}/
+          %img{:alt => "", :src => "../assets/purple.jpg"}/
           .carousel-content
             .carousel-captions
               %h1 Another example headline
               %p.lead Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
         .item
-          %img{:alt => "", :src => "../assets/nk13.jpg"}/
+          %img{:alt => "", :src => "../assets/gaze.jpg"}/
+          .carousel-content
+            .carousel-captions
+              %h1 Another example headline
+              %p.lead Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+        .item
+          %img{:alt => "", :src => "../assets/friends.jpg"}/
           .carousel-content
             .carousel-captions
               %h1 One more for good measure
               %p.lead Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
               / %a.btn.btn-large.btn-primary{:href => "#"} Browse gallery
-      %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel"} ‹
-      %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel"} ›
+      %a.left.carousel-control{"data-slide" => "prev", :href => ".carousel-container--outer"} ‹
+      %a.right.carousel-control{"data-slide" => "next", :href => ".carousel-container--outer"} ›
 
 // Product Thumbnail Section //
 = render "/partials/products_partial"
@@ -58,11 +64,11 @@
 
 // Footer Section //
 .footer-container--outer
-  .footer-container--inner
-    .footer-background
-    .row-fluid
-      .footer-content 
-        %p webiste by cleejin
+  .footer-background
+.footer-container--inner
+  .row-fluid
+    .footer-content 
+      %p webiste by cleejin
 
 
 
@@ -73,7 +79,7 @@
     $(function(){
       // carousel demo
       $('.carousel').carousel({
-      interval: 50000
+      interval: 5000
       });
     })
   }(window.jQuery)
