@@ -145,14 +145,15 @@
 }
 
 .product-container--promote{
-  @extend .product-container--inner;
-  height: 630px;
-  outline: solid yellow;
+  height: 642px;
+  border: 1px dashed rgba(0, 0, 0, 0.3);
+  margin-bottom: 14px;
 }
 
 .display-large--left{
-  padding: 15px;
+  padding: 13px;
   float: left;
+  border-right: 1px dashed rgba(0, 0, 0, 0.3);
 }
 
 .display-large--right{
@@ -166,17 +167,19 @@ ul.display{
 }
 
 li.display-small--top{
-  padding: 15px 15px 0 15px;
+  padding: 14px 14px 0 14px;
   float: left;
   list-style-type: none;
   width: 300px;
-  height: 300px
+  height: 300px;
 }
 
 li.display-small--bottom{
   @extend .display-small--top;
-  padding-bottom: 15px;
+  padding-bottom: 14px;
 }
+
+// Thumbnails //
 
 ul.thumbnails{
   height: 300px;
