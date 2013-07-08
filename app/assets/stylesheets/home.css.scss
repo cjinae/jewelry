@@ -150,6 +150,25 @@
   margin-bottom: 14px;
 }
 
+.product-overlay--top{
+  background-color: rgba(0, 0, 0, 0.35);
+  // background: #000;
+  color: #FFF;
+  height: 50px;
+  width: 586px;
+  font-size: 18px;
+  position: absolute;
+  padding-left: 14px;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.product-overlay--bottom{
+  @extend .product-overlay--top;
+  width: 286px;
+  margin-top: 250px;
+}
+
 .display-large--left{
   padding: 13px;
   float: left;
