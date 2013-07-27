@@ -11,9 +11,7 @@
       .span6.offset3.home-logo--container
         %a{:href => "/"}
           %img{:class => "home-logo-img", :alt => "", :src => "../assets/logo.png"}
-      .span3
-        %a{:class => "linksto", :href => "#about"} About
-        %a{:class => "linksto", :href => "/"} Landing
+    = render "/partials/navbar"
 
 .carousel-container--outer
   .carousel-container--inner
@@ -60,12 +58,10 @@
         %img{:class => "artist-img", :alt => "", :src => "../assets/portrait-crop.png"}
       .span8
         %h3 Artist Name
-        %p A teacher by day and a jeweler by night. Born and raised in Toronto, my love for all things gold and glitzy has been with me all my life. I began making jewelry as a hobby two years ago when I needed snazzy gifts for my nearest and dearest friends. Inspired by the wonderful people in my life, I decided to create my own line of handcrafted jewelry and just like that, Nine and Knots came to be.
+        %p.par-text A teacher by day and a jeweler by night. Born and raised in Toronto, my love for all things gold and glitzy has been with me all my life. I began making jewelry as a hobby two years ago when I needed snazzy gifts for my nearest and dearest friends. Inspired by the wonderful people in my life, I decided to create my own line of handcrafted jewelry and just like that, Nine and Knots came to be.
 
 // Footer Section //
-.footer-container--outer
-  .footer-background
-.footer-container--inner
+.footer-container
   .row-fluid
     .footer-content 
       %p webiste by cleejin
