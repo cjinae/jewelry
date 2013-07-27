@@ -6,6 +6,8 @@ $(document).ready(function(){
 
 $('.outer-row').hover(function(){
 	$(this).find('.product-detail').toggleClass('show');
+	$(this).next('li').find('.product-overlay--bottom').toggleClass('hide');
+	// $(this).remove('product-overlay--bottom');
 });	
 
 
