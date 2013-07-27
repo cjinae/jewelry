@@ -19,10 +19,24 @@
   font-weight: bold;
 }
 
-.product-text--small{
+p.product-text{
+  color: #FFF;
+  text-align: center;
+  padding: 40px 10px 0px 10px;
+}
+
+p.product-text--small{
+  @extend .product-text;
   // font-family: 'Monda', sans-serif;
-  // font-family: 'Ropa Sans', sans-serif;
-  font-size: 18px;
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  color: #FFF;
+}
+
+p.product-text--phrase{
+    color: #FFF;
 }
 
 .par-text{
@@ -288,12 +302,6 @@ li.thumbnails{
 
 .hide{
   visibility: none;
-}
-
-p.product-text{
-  color: #FFF;
-  text-align: center;
-  padding: 40px 10px 0px 10px;
 }
 
 // About Artist Style //
