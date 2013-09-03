@@ -1,7 +1,9 @@
 Nineandknots::Application.routes.draw do
   root :to => 'Landing#index'
 
-  resources :home
+  resources :home, only: [:index]
+  resources :pages, only: [:show]
+  # map.page ":action", :controller => "pages"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
